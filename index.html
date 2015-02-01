@@ -19,10 +19,12 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <meta charset="utf-8">
 
   <!-- Tells the browser what the title of this page should be. -->
-  <title>Resume</title>
+  <title>Chaker Ben Hammouda - Personal Page</title>
 
   <!-- Load the page styles. -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.2/themes/sunny/jquery-ui.css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 
   <!--
@@ -39,6 +41,8 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   you can't accomplish with vanilla (regular) JavaScript.
   -->
   <script src="js/jQuery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 
   <!-- More on helper.js in the class -->
   <script src="js/helper.js"></script>
@@ -65,23 +69,36 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
         <img class="modalDialogImg" src="images/EyeOn_3.png" alt="">
       </div>
     </div>
-    <div id="header" class="center-content clearfix">
+    <div id="header" class="ui-corner-all center-content clearfix">
       <ul id="topContacts" class='flex-box'></ul>
     </div>
-    <div style='clear: both;'></div>
-    <div id="workExperience" class='gray'>
-      <h2>Work Experience</h2>
+    <div id="tabs">
+      <ul>
+        <li><a href="#workExperience">Work Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#mapDiv">Where I've Lived and Worked</a></li>
+      </ul>
+      <div id="workExperience">
+        <h2>Work Experience</h2>
+        <div id="workExperience-accordion" class="accordion"></div>
+      </div>
+
+      <div id="projects">
+        <h2>Projects</h2>
+        <div id="projects-accordion" class="accordion"></div>
+      </div>
+
+      <div id="education">
+        <h2>Education</h2>
+      </div>
+
+      <div id="mapDiv">
+        <h2>Where I've Lived and Worked</h2>
+      </div>
     </div>
-    <div id="projects">
-      <h2>Projects</h2>
-    </div>
-    <div id="education" class='gray'>
-      <h2>Education</h2>
-    </div>
-    <div id="mapDiv">
-      <h2>Where I've Lived and Worked</h2>
-    </div>
-    <div id="letsConnect" class='dark-gray'>
+
+    <div id="letsConnect" class='ui-corner-all dark-gray'>
       <h2 class='orange center-text'>Let's Connect</h2>
         <ul id="footerContacts" class="flex-box">
       </ul>

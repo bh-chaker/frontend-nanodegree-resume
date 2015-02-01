@@ -42,6 +42,14 @@ bio.display = function (){
 var education = {
     "schools": [
         {
+            "name": "El May High School",
+            "location": "El May, Djerba, Tunisia",
+            "degree": "High School Diploma",
+            "majors": ["Computer Science"],
+            "dates": 2008,
+            "url": "#"
+        },
+        {
             "name": "SupCom",
             "location": "El Ghazela, Ariana, Tunisia",
             "degree": "Bachelor",
@@ -204,10 +212,10 @@ var work = {
 work.display = function (){
     for (var i in this.jobs){
         var job = this.jobs[i];
-        $('#workExperience').append(HTMLworkStart);
+        $('#workExperience-accordion').append(HTMLworkStart);
         var workEmployer = HTMLworkEmployer.replace('%data%', job.employer);
         var workTitle = HTMLworkTitle.replace('%data%', job.title);
-        $('.work-entry:last').append(workEmployer + workTitle);
+        $('.work-entry:last').before(workEmployer + workTitle);
         $('.work-entry:last').append(HTMLworkDates.replace('%data%', job.dates));
         $('.work-entry:last').append(HTMLworkLocation.replace('%data%', job.location));
         $('.work-entry:last').append(HTMLworkDescription.replace('%data%', job.description));
@@ -270,7 +278,8 @@ var projects = {
                 "Calendar service.<br>"+
                 "- Create a payment page and integrate NAB XML API in PHP backend (NAB: "+
                 "National Australia Bank).<br>"+
-                "- Custom CMS backend for Admin user: managing clients, reports, transactions,.. .",
+                "- Custom CMS backend for Admin user: managing clients, reports, transactions,..."+
+                "<br><b>Languages used: PHP, JavaScript, HTML, CSS</b>",
             "images": ["images/EyeOn_1.png", "images/EyeOn_2.png", "images/EyeOn_3.png"]
         }
     ]
@@ -282,8 +291,8 @@ projects.display = function (){
         var projectDates = HTMLprojectDates.replace("%data%", project.dates);
         var projectDescription = HTMLprojectDescription.replace("%data%", project.description);
 
-        $("#projects").append(HTMLprojectStart);
-        $(".project-entry:last").append(projectTitle);
+        $("#projects-accordion").append(HTMLprojectStart);
+        $(".project-entry:last").before(projectTitle);
         $(".project-entry:last").append(projectDates);
         $(".project-entry:last").append(projectDescription);
 
@@ -304,7 +313,29 @@ var setup_preview_modal = function (){
     $(document).on("click", "#previewModal", function (){
         window.location.href = "#close";
     });
-}
+};
+
+var setup_accordion = function (){
+    $( ".accordion" ).accordion({
+        header: "h3",
+        heightStyle: "content",
+        active: false,
+        collapsible: true
+    });
+};
+
+var setup_nav_tabs = function (){
+    $(document).ready(function ($) {
+
+        $( "#tabs" ).tabs({
+            activate: function (event, ui){
+                if (ui.newPanel.attr('id') == 'mapDiv'){
+                    initializeMap();
+                }
+            }
+        });
+    });
+};
 
 var setup_all_sections = function (){
     bio.display();
@@ -313,7 +344,9 @@ var setup_all_sections = function (){
     projects.display();
     $("#mapDiv").append(googleMap);
     setup_preview_modal();
-}
-
+    setup_accordion();
+    setup_nav_tabs();
+    $( document ).tooltip();
+};
 
 setup_all_sections();
