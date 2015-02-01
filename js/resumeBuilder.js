@@ -270,7 +270,7 @@ var projects = {
                 "Calendar service.<br>"+
                 "- Create a payment page and integrate NAB XML API in PHP backend (NAB: "+
                 "National Australia Bank).<br>"+
-                "- Custom mini-ERP for Admin user: managing clients, reports, transactions,.. .",
+                "- Custom CMS backend for Admin user: managing clients, reports, transactions,.. .",
             "images": ["images/EyeOn_1.png", "images/EyeOn_2.png", "images/EyeOn_3.png"]
         }
     ]
