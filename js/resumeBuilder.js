@@ -7,7 +7,7 @@ var bio = {
         "github": "bh-chaker",
         "location": "El May Djerba, Tunisia",
     },
-    "welcomeMsg": "Welcome to my résumé!",
+    "welcomeMsg": "Welcome to my personal page!",
     "skills": ["PHP", "Python", "JavaScript", "HTML", "CSS"],
     "bioPic": "images/chaker_2011.png"
 }

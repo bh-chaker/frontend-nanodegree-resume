@@ -1,0 +1,14 @@
+1) To create the modal used to view the image in full size, I staretd from this example:
+http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/
+
+2) I used jQueryUI tabs:
+http://api.jqueryui.com/tabs/
+
+3) I used jQueryUI accordion:
+http://api.jqueryui.com/accordion/
+
+4) Viewed the gallery here:
+http://jqueryui.com/themeroller/
+
+5) Took CDN links of jQueryUI JavaScript and 'Sunny' theme from here:
+https://code.jquery.com/ui/
