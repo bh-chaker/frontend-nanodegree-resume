@@ -139,6 +139,10 @@ ul {
   list-style-type: none;
 }
 
+ol {
+  margin-left:30px;
+}
+
 .biopic {
   float: left;
   padding: 10px;
@@ -148,6 +152,37 @@ ul {
 
 img {
   padding: 10px;
+}
+
+.preview-img{
+  max-width:300px;
+}
+
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialogImg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 /* Bar chart stuff */
@@ -164,6 +199,12 @@ img {
 
 span {
   padding: 5px;
+}
+
+.header-role {
+  font-size: 20px;
+  font-weight: 500;
+  color:white;
 }
 
 #letsConnect {
