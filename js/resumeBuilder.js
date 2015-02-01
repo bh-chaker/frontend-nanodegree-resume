@@ -294,20 +294,26 @@ projects.display = function (){
     }
 };
 
+var setup_preview_modal = function (){
+    $(document).on("click", ".preview-img", function (){
+        $("#previewModal").find("img").attr("src", $(this).attr("src"));
+        $("#previewModal").find("img").attr("alt", $(this).attr("alt"));
+        window.location.href = "#previewModal";
+    });
 
-bio.display();
-education.display();
-work.display();
-projects.display();
+    $(document).on("click", "#previewModal", function (){
+        window.location.href = "#close";
+    });
+}
 
-$("#mapDiv").append(googleMap);
+var setup_all_sections = function (){
+    bio.display();
+    education.display();
+    work.display();
+    projects.display();
+    $("#mapDiv").append(googleMap);
+    setup_preview_modal();
+}
 
-$(document).on("click", ".preview-img", function (){
-    $("#previewModal").find("img").attr("src", $(this).attr("src"));
-    $("#previewModal").find("img").attr("alt", $(this).attr("alt"));
-    window.location.href = "#previewModal";
-});
 
-$(document).on("click", "#previewModal", function (){
-    window.location.href = "#close";
-});
+setup_all_sections();
