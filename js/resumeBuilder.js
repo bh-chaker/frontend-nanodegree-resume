@@ -10,7 +10,8 @@ var bio = {
     "welcomeMsg": "Welcome to my personal page!",
     "skills": ["PHP", "Python", "JavaScript", "HTML", "CSS"],
     "bioPic": "images/chaker_2011.png"
-}
+};
+
 bio.display = function (){
     var headerRole = HTMLheaderRole.replace('%data%', this.role);
     var headerName = HTMLheaderName.replace('%data%', this.name);
@@ -37,7 +38,7 @@ bio.display = function (){
         $('#topContacts').append(contactGeneric);
         $('#footerContacts').append(contactGeneric);
     }
-}
+};
 
 var education = {
     "schools": [
@@ -109,6 +110,7 @@ var education = {
         },
     ]
 };
+
 education.display = function (){
     for (var i in this.schools){
         var school = this.schools[i];
@@ -148,7 +150,7 @@ education.display = function (){
         courseUrl.attr("href", onlineCourse.url);
         $(".education-entry:last").append(courseUrl);
     }
-}
+};
 
 var work = {
     "jobs": [
@@ -209,6 +211,7 @@ var work = {
         }
     ]
 };
+
 work.display = function (){
     for (var i in this.jobs){
         var job = this.jobs[i];
@@ -220,7 +223,7 @@ work.display = function (){
         $('.work-entry:last').append(HTMLworkLocation.replace('%data%', job.location));
         $('.work-entry:last').append(HTMLworkDescription.replace('%data%', job.description));
     }
-}
+};
 
 var projects = {
     "projects":[
@@ -284,6 +287,7 @@ var projects = {
         }
     ]
 };
+
 projects.display = function (){
     for (var i in this.projects){
         var project = this.projects[i];

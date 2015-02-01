@@ -10,3 +10,5 @@ Currently it is not hosted anywhere, to view my project you can:
 3) open index.html in your favorite browser
 
 If you have any suggestions or you simply want to discuss something, feel free to email me at benhammouda.chaker@gmail.com
+
+Chaker Ben Hammouda
