@@ -165,7 +165,8 @@ var work = {
                 "<ol><li>Algorithm design with Matlab: Topology Explorer project.</li>"+
                 "<li>Signal processing with FPGA: PLC Channel Emulator.</li>"+
                 "<li>Programming Microcontrollers & Android: NMIHD Tools.</li></ol>"+
-                "<a href='http://www.codintek.com/'>Company Website</a><br>"
+                "<br><a class='ui-state-default ui-corner-all' "+
+                "href='http://www.codintek.com/'>Company Website</a><br>"
         },
         {
             "employer": "Working Software",
@@ -182,7 +183,8 @@ var work = {
                 "There isn't a specific project that I worked on during 10 months. "+
                 "I had collaborated on several projects.<br>"+
                 "The project that worked on the most is EYEON project (cf projects section)."+
-                "<a href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
+                "<br><br><a class='ui-state-default ui-corner-all' "+
+                "href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
         },
         {
             "employer": "Working Software",
@@ -207,7 +209,8 @@ var work = {
                 "technologies every day (and I don't need to be an expert in every single one "+
                 "of them);<br>however, I need to understand them all and be a confident, independent "+
                 "learner who can acquire skills and solve problems independently. "+
-                "<a href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
+                "<br><br><a class='ui-state-default ui-corner-all' "+
+                "href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
         }
     ]
 };

@@ -5,13 +5,28 @@
 }
 
 #main {
-  width: 750px;
-  width: 970px;
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  #main {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #main {
+    width: 1170px;
+  }
 }
 
 .clearfix {
