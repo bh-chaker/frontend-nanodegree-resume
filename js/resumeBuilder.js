@@ -190,7 +190,7 @@ var work = {
             "employer": "Working Software",
             "title": "Developer Operations",
             "location": "Remote - Sydney, Australia",
-            "dates": "February 01, 2014 - Future",
+            "dates": "February 01, 2014 - January 31, 2015",
             "description": "Since February, I moved to a position of Developer Operations.<br>"+
                 "In our organisation, Developer Operations is across between "+
                 "\"lead developer\" and \"systems administrator\".<br>"+
