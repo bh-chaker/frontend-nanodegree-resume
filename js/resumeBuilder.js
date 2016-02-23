@@ -173,7 +173,7 @@ var work = {
             "title": "OO PHP 5.x Developer",
             "location": "Remote - Sydney, Australia",
             "url": "http://www.workingsoftware.com.au/",
-            "dates": "April 01, 2014 - January 31, 2014",
+            "dates": "April 01, 2014 - January 31, 2015",
             "description": "I worked as a remote PHP Developer.<br>"+
                 "Here is what I was working on:<br>"+
                 "- PHP: 50%<br>"+
@@ -190,7 +190,7 @@ var work = {
             "employer": "Working Software",
             "title": "Developer Operations",
             "location": "Remote - Sydney, Australia",
-            "dates": "February 01, 2014 - January 31, 2015",
+            "dates": "February 01, 2015 - January 31, 2016",
             "description": "Since February, I moved to a position of Developer Operations.<br>"+
                 "In our organisation, Developer Operations is across between "+
                 "\"lead developer\" and \"systems administrator\".<br>"+
