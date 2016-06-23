@@ -61,6 +61,18 @@ var education = {
     ],
     "onlineCourses": [
         {
+            "title": "Full Stack Web Developer Nanodegree",
+            "school": "Udacity",
+            "dates": 2015,
+            "url": "https://www.udacity.com/course/nd004"
+        },
+        {
+            "title": "Front-End Web Developer Nanodegree",
+            "school": "Udacity",
+            "dates": 2015,
+            "url": "https://www.udacity.com/course/nd001"
+        },
+        {
             "title": "Machine Learning",
             "school": "Stanford University",
             "dates": 2011,
