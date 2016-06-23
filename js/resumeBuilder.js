@@ -211,7 +211,7 @@ var work = {
                 "learner who can acquire skills and solve problems independently. "+
                 "<br><br><a class='ui-state-default ui-corner-all' "+
                 "href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
-        }
+        },
         {
             "employer": "Baby Sittor",
             "title": "Backend Developer + Developer Operations",
