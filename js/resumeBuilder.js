@@ -177,7 +177,7 @@ var work = {
                 "<ol><li>Algorithm design with Matlab: Topology Explorer project.</li>"+
                 "<li>Signal processing with FPGA: PLC Channel Emulator.</li>"+
                 "<li>Programming Microcontrollers & Android: NMIHD Tools.</li></ol>"+
-                "<br><a class='ui-state-default ui-corner-all' "+
+                "<br><a class='ui-state-default ui-corner-all' target='_blank' "+
                 "href='http://www.codintek.com/'>Company Website</a><br>"
         },
         {
@@ -195,7 +195,7 @@ var work = {
                 "There isn't a specific project that I worked on during 10 months. "+
                 "I had collaborated on several projects.<br>"+
                 "The project that worked on the most is EYEON project (cf projects section)."+
-                "<br><br><a class='ui-state-default ui-corner-all' "+
+                "<br><br><a class='ui-state-default ui-corner-all' target='_blank' "+
                 "href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
         },
         {
@@ -221,7 +221,7 @@ var work = {
                 "technologies every day (and I don't need to be an expert in every single one "+
                 "of them);<br>however, I need to understand them all and be a confident, independent "+
                 "learner who can acquire skills and solve problems independently. "+
-                "<br><br><a class='ui-state-default ui-corner-all' "+
+                "<br><br><a class='ui-state-default ui-corner-all' target='_blank' "+
                 "href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
         },
         {
@@ -241,8 +241,8 @@ var work = {
                 "- AWS: EB, EC2, RDS<br>"+
                 "- Linux administration and shell scripting<br>"+
                 "- Nginx/Apache<br>"+
-                "- git<br>"+
-                "<br><br><a class='ui-state-default ui-corner-all' "+
+                "- git"+
+                "<br><br><a class='ui-state-default ui-corner-all' target='_blank' "+
                 "href='https://www.babysittor.com/'>Company Website</a><br>"
         }
     ]
@@ -311,9 +311,9 @@ var projects = {
                 "While working at WorkingSoftware, I developed parts of the EYEON website.<br>"+
                 "The main challenges I had to work on:<br>"+
                 "- Create a custom booking system using "+
-                "<a href='http://fullcalendar.io/' style='display:inline;'>FullCalendar</a> "+
+                "<a href='http://fullcalendar.io/' style='display:inline;' target='_blank'>FullCalendar</a> "+
                 "JavaScript plugin and <a href='https://github.com/google/google-api-php-client/'"+
-                " style='display:inline;'>Google API PHP client</a> to save data to Google "+
+                " style='display:inline;' target='_blank'>Google API PHP client</a> to save data to Google "+
                 "Calendar service.<br>"+
                 "- Create a payment page and integrate NAB XML API in PHP backend (NAB: "+
                 "National Australia Bank).<br>"+
