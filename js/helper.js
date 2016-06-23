@@ -53,7 +53,7 @@ var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineTitle = '<b>%data%';
 var HTMLonlineSchool = ' - %data%</b><br>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
-var HTMLonlineURL = '<br><a href="#" style="display:inline;">%data%</a><br><br>';
+var HTMLonlineURL = '<br><a href="#" style="display:inline;" target="_blank">%data%</a><br><br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
