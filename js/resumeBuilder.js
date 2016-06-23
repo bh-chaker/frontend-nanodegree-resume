@@ -8,7 +8,7 @@ var bio = {
         "location": "El May Djerba, Tunisia",
     },
     "welcomeMsg": "Welcome to my personal page!",
-    "skills": ["PHP", "Python", "JavaScript", "HTML", "CSS"],
+    "skills": ["PHP", "Python", "JavaScript", "HTML", "CSS", "Linux", "AWS"],
     "bioPic": "images/chaker_2011.png"
 };
 
@@ -211,6 +211,27 @@ var work = {
                 "learner who can acquire skills and solve problems independently. "+
                 "<br><br><a class='ui-state-default ui-corner-all' "+
                 "href='http://www.workingsoftware.com.au/'>Company Website</a><br>"
+        }
+        {
+            "employer": "Baby Sittor",
+            "title": "Backend Developer + Developer Operations",
+            "location": "Remote - Paris, France",
+            "dates": "March 01, 2016 - June 16, 2016",
+            "description": "The client had an iOS mobile app and a website with a backend on Parse.com.<br>"+
+                "I was responsible for migrating the backend to AWS, fix bugs and make some changes "+
+                "to the website and backend.<br>My tasks involved the following technologies:<br>"+
+                "- PHP<br>"+
+                "- NodeJS<br>"+
+                "- AngularJS<br>"+
+                "- HTML/CSS/JavaScript"+
+                "- MySQL<br>"+
+                "- MongoDB<br>"+
+                "- AWS: EB, EC2, RDS<br>"+
+                "- Linux administration and shell scripting<br>"+
+                "- Nginx/Apache<br>"+
+                "- git<br>"+
+                "<br><br><a class='ui-state-default ui-corner-all' "+
+                "href='https://www.babysittor.com/'>Company Website</a><br>"
         }
     ]
 };
